@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "app": "finanzas-personales-dark",
+    "version": "1.0.1",
+    "currency": "MXN",
+    "owner": "personal",
+    "createdAt": "2026-06-17T02:19:32.127Z",
+    "updatedAt": "2026-06-18T23:23:55.262Z"
+  },
+  "settings": {
+    "salaryFrequency": "weekly",
+    "defaultPeriod": "month",
+    "reminderDaysAhead": 5
+  },
+  "categories": [
+    "Sueldo",
+    "Propinas",
+    "Comida",
+    "Renta",
+    "Luz",
+    "Agua",
+    "Internet",
+    "Transporte",
+    "Salud",
+    "Mascotas",
+    "Deudas",
+    "Ahorro",
+    "Estudios",
+    "Entretenimiento",
+    "Otros"
+  ],
+  "movements": [
+    {
+      "id": "a42faf45-a894-4dae-934a-b1dbde4e33d5",
+      "type": "income",
+      "date": "2026-06-17",
+      "amount": 120,
+      "method": "cash",
+      "category": "Propinas",
+      "description": "propina",
+      "note": "",
+      "createdAt": "2026-06-17T02:21:43.360Z"
+    },
+    {
+      "id": "513d1b47-e98b-45ab-b492-3be276d5a656",
+      "type": "income",
+      "date": "2026-06-17",
+      "amount": 2000,
+      "method": "cash",
+      "category": "Sueldo",
+      "description": "",
+      "note": "",
+      "createdAt": "2026-06-17T02:26:17.148Z"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "90bbc441-bfda-411c-a9ff-7705cc3c96cd",
+      "category": "Entretenimiento",
+      "limit": 1000,
+      "period": "month",
+      "createdAt": "2026-06-17T02:21:24.913Z"
+    }
+  ],
+  "debts": [
+    {
+      "id": "78f3071a-85cd-405e-bd72-c48a761e5cb7",
+      "name": "A/C",
+      "total": 4000,
+      "paid": 0,
+      "minPayment": 1000,
+      "dueDate": "2026-07-18",
+      "annualInterest": 0,
+      "createdAt": "2026-06-17T02:20:03.300Z"
+    },
+    {
+      "id": "5a4bafb9-3044-4083-acec-41293689d90f",
+      "name": "hermana",
+      "total": 21000,
+      "paid": 0,
+      "minPayment": 0,
+      "dueDate": "",
+      "annualInterest": 0,
+      "createdAt": "2026-06-17T02:23:43.895Z"
+    }
+  ],
+  "goals": [
+    {
+      "id": "b2ac70a4-690d-4367-9586-41ea83923e25",
+      "name": "ahorrito",
+      "target": 30000,
+      "saved": 0,
+      "targetDate": "2027-07-01",
+      "note": "",
+      "createdAt": "2026-06-17T02:24:21.457Z"
+    },
+    {
+      "id": "84403567-97ec-41ae-b341-38efdf47d1a3",
+      "name": "plancha de ropa",
+      "target": 300,
+      "saved": 0,
+      "targetDate": "2026-06-30",
+      "note": "",
+      "createdAt": "2026-06-18T19:37:17.239Z"
+    },
+    {
+      "id": "3e1017d8-52dd-44db-b1b6-b323318a16ea",
+      "name": "colchon",
+      "target": 3000,
+      "saved": 0,
+      "targetDate": "2026-12-15",
+      "note": "",
+      "createdAt": "2026-06-18T19:49:31.749Z"
+    },
+    {
+      "id": "2bb4a930-fd21-452d-9f85-2c96c218776c",
+      "name": "esterilizar ruperta",
+      "target": 400,
+      "saved": 0,
+      "targetDate": "2026-06-30",
+      "note": "",
+      "createdAt": "2026-06-18T19:50:29.462Z"
+    },
+    {
+      "id": "954021f6-65b5-4fa6-94b5-b6919e5a835c",
+      "name": "esterilizar silvestre",
+      "target": 400,
+      "saved": 0,
+      "targetDate": "2026-07-11",
+      "note": "",
+      "createdAt": "2026-06-18T19:50:48.974Z"
+    },
+    {
+      "id": "f421defc-6599-4722-a147-7d748186455c",
+      "name": "sala esquinera",
+      "target": 5000,
+      "saved": 0,
+      "targetDate": "2026-06-30",
+      "note": "",
+      "createdAt": "2026-06-18T19:52:11.181Z"
+    },
+    {
+      "id": "48d04ab1-9692-4271-a489-217644ebde18",
+      "name": "mesa",
+      "target": 4000,
+      "saved": 0,
+      "targetDate": "2026-06-30",
+      "note": "",
+      "createdAt": "2026-06-18T19:59:01.998Z"
+    },
+    {
+      "id": "3639ce12-c155-49e5-8040-d16094081d45",
+      "name": "curso udemy gramatica",
+      "target": 199,
+      "saved": 0,
+      "targetDate": "2026-06-19",
+      "note": "",
+      "createdAt": "2026-06-18T23:02:55.209Z"
+    },
+    {
+      "id": "9627f54d-01c9-4198-a5a3-4dc529abbf01",
+      "name": "test",
+      "target": 3200,
+      "note": "test5555",
+      "saved": 0,
+      "targetDate": "",
+      "createdAt": "2026-06-18T23:23:55.262Z"
+    }
+  ],
+  "recurring": [
+    {
+      "id": "f5e35616-f26f-41a6-819a-a5632a09ac97",
+      "type": "expense",
+      "name": "renta",
+      "amount": 3800,
+      "method": "transfer",
+      "category": "Renta",
+      "frequency": "monthly",
+      "startDate": "2026-07-01",
+      "dayOfMonth": 1,
+      "active": true,
+      "createdAt": "2026-06-17T02:20:47.256Z"
+    },
+    {
+      "id": "f1712284-8c1d-47bb-89f6-8dec4827fabc",
+      "type": "income",
+      "name": "sueldo",
+      "amount": 10000,
+      "method": "debit",
+      "category": "Sueldo",
+      "frequency": "monthly",
+      "startDate": "2026-06-26",
+      "dayOfMonth": null,
+      "active": true,
+      "createdAt": "2026-06-17T02:25:53.489Z"
+    }
+  ]
+}
